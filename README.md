@@ -1,24 +1,18 @@
-# README
+# App Example Rails 6 and React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Pré-condições
+```
+  rvm use ruby-2.6.3
+  rvm install rails@6.0.0
+```
 
-Things you may want to cover:
+##Iniciando um projeto
 
-* Ruby version
+```
+  rails new PROJECT_NAME -BT --webpack=react
+  cd PROJECT_NAME/
+  bundle add react-rails
+  rails webpacker:install
+  rails g react:install
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
