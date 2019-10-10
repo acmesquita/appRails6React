@@ -16,3 +16,10 @@
   rails g react:install
 ```
 
+## Adicionando um recurso
+
+```
+  rails g resource User f_name:string l_name:string
+  rails db:prepare // Cria um banco se ele não existir e roda as migrações
+  rails db:seed
+```
